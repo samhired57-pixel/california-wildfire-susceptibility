@@ -1,0 +1,11 @@
+# large / regenerable rasters (rebuilt by src/fetch_*.py / src/features.py)
+data/dem.tif
+data/landcover.tif
+data/prism_*.tif
+data/derived/
+data/_dl_prism/
+data/_dl_worldcover/
+# trained model exceeds GitHub's 100 MB file limit — retrain via src/train.py
+outputs/rf_model.joblib
+__pycache__/
+*.pyc
